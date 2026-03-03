@@ -1,0 +1,5 @@
+#include "Debug.xcconfig"
+
+APP_DISPLAY_NAME=Willy-O Dev
+PRODUCT_BUNDLE_IDENTIFIER=com.willyo.willyO.dev
+FLUTTER_TARGET=lib/main_dev.dart
