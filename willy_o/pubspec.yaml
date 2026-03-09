@@ -20,6 +20,7 @@ dependencies:
 
 dev_dependencies:
   build_runner: ^2.4.15
+  flutter_native_splash: ^2.4.4
   flutter_test:
     sdk: flutter
   freezed: ^3.0.6
@@ -27,5 +28,26 @@ dev_dependencies:
   riverpod_generator: ^2.6.5
   very_good_analysis: ^6.0.0
 
+flutter_native_splash:
+  background_image: assets/images/Kino_pirate_skull_with_eye_patch.png
+  background_image_dark: assets/images/Kino_pirate_skull_with_eye_patch.png
+  fullscreen: true
+  android_12:
+    background_image: assets/images/Kino_pirate_skull_with_eye_patch.png
+    background_image_dark: assets/images/Kino_pirate_skull_with_eye_patch.png
+  ios: true
+  android: true
+
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf
+  #       - asset: assets/fonts/CustomFont-Bold.ttf
+  #         weight: 700
